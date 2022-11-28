@@ -1,5 +1,3 @@
-
-
 .pokemonTile__content {
     position: relative;
     width: 17%;
@@ -8,6 +6,14 @@
     border-radius: 15px;
     border: 1px solid black;
     box-shadow: 5px 5px 0 black;
+}
+
+.pokemonTile__thumbnail {
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 110%, contain;
+    background-position: center;
 }
 
 /*

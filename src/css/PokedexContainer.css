@@ -32,8 +32,3 @@
     margin-right: auto;
     background-color: black;
   }
-
-.pokedexContainer__pokemonTileContainer {
-    display: flex;
-    justify-content: space-evenly;
-}

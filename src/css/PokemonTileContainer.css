@@ -1,0 +1,10 @@
+.pokemonTileContainer__content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pokemonTileContainer__loader {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
