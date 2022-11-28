@@ -32,3 +32,9 @@
     margin-right: auto;
     background-color: black;
   }
+
+  .pokemonContainer__loader {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
