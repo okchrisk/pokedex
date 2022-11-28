@@ -2,15 +2,16 @@ import React from 'react'
 import './css/PokemonTile.css'
 
 export default function PokemonTile({ pokemon }) {
-
+console.log(pokemon)
   const thumbnail = null
   // const id = pokemon.id.toLocaleString('en-US', {
   //   minimumIntegerDigits: 3,
   //   useGrouping: false
   // })
+  const name= pokemon.name
   const id = pokemon.id
-  const name = pokemon.name
   const types = null
+
 
   return (
     <>

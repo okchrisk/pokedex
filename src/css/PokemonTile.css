@@ -17,6 +17,10 @@
     background-position: center;
 }
 
+.pokemonTile__name {
+    font-weight: bold;
+}
+
 /*
 tile colors
     red.....#fef0e2
