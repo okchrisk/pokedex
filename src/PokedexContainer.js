@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './css/PokedexContainer.css'
-import { fetchPokemon } from './api/fetchPokemon.js'
+import { fetchPokemon } from './api/FetchPokemon.js'
 import PokemonTileContainer from './PokemonTileContainer'
 
 export default function PokedexContainer() {
@@ -15,7 +15,7 @@ export default function PokedexContainer() {
     fetchPokemon()
       .then(setPokemon)
 
-      .then(() => setIsLoading(false))
+      .finally(() => setIsLoading(false))
   }, [])
 
   return (
